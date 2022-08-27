@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+  <body>
+    <div class="allCard">
+      <picture>
+        <source
+          media="(max-width: 700px)"
+          srcset="/assets/images/image-product-mobile.jpg"
+          alt="Bottle of Chanel perfume"
+        />
+        <img
+          src="/assets/images/image-product-desktop.jpg"
+          alt="Bottle of Chanel perfume"
+        />
+      </picture>
+
+      <div class="cardText">
+        <p class="product">PERFUME</p>
+        <h1>Gabrielle Essence Eau De Parfum</h1>
+        <p>
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="prices">
+          <p class="currentPrice">$149.99</p>
+          <p class="taxadPrice">$169.99</p>
+        </div>
+        <div class="button">
+          <button>
+            <img
+              class="cartIcon"
+              src="assets/images/icon-cart.svg"
+              alt="Shopping Cart"
+            />Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        href="https://www.frontendmentor.io/profile/oArthurCandido"
+        target="_blank"
+        >Arthur Candido</a
+      >.
+    </div>
+  </body>
+</html>
