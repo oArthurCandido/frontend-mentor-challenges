@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,800&family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --Light-Cyan: hsl(193, 38%, 86%);
+  --Neon-Green: hsl(150, 100%, 66%);
+  --Grayish-Blue: hsl(217, 19%, 38%);
+  --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+  --Dark-Blue: hsl(218, 23%, 16%);
+  --Font-size : 28px;
+  --font-Family: 'Manrope', sans-serif;
+  --Weights: 800
+  
+}
+
+body{
+  background-color: var(--Dark-Blue);
+  color: var(--Light-Cyan);
+  font-family:var(--font-Family);
+  font-weight: var(--Weights);
+  font-size: 16px;
+}
+
+#adviceCard{
+  background-color: var(--Dark-Grayish-Blue);
+  max-width: 340px;
+  margin: 25vh auto;
+  border-radius: 10px;
+  position: relative;
+ 
+}
+
+#adviceId{
+  text-align: center;
+  color: var(--Neon-Green);
+  font-size: .7rem;
+  font-weight: 600;
+  letter-spacing: 4px;
+  padding: 2.5rem 0 1rem 0;
+}
+#adviceText{
+  margin: 0 1rem 1.5rem;
+  text-align: center;
+}
+#divider{
+  margin: auto;
+  max-width: fit-content;
+  margin-bottom: 1rem;
+  padding-bottom: 3rem;
+}
+#button{
+  width: fit-content;
+  margin: auto;
+  position: absolute;
+    left: 40%;
+    top: 88.5%;
+  
+}
+
+button{
+  background-color: var(--Neon-Green);
+  border: none;
+  padding: 1.3rem;
+  border-radius: 100px;
+  margin: auto;
+}
+
+button:hover{
+  box-shadow: 1px 1px 20px 1px var(--Neon-Green);
+  cursor: pointer;
+  
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+@media(min-width: 700px){
+  #adviceCard{
+    max-width: 430px;
+    margin-top: 28vh;
+  }
+  #button{
+    left: 42%;
+    top: 87.5%;
+  }
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+    
