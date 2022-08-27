@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,800&family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: white;
+  color: rgb(12, 11, 11);
+  font-family: 'MAnrope', sans-serif;
+  text-align: center;
+}
+h1{
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 1rem 0;
+}
+header{
+  border-bottom: .5px solid rgba(94, 91, 91, 0.089);
+  max-width: 900px;
+  margin: auto;
+  padding: 0 1rem
+}
+.container{
+display: flex;
+max-width: 950px;
+flex-wrap: wrap;
+ margin: 3rem auto;
+}
+
+.projectCard{
+  max-width: 300px;
+  border-radius: 10px;
+  margin: 3px;
+  margin: 0 auto;
+}
+.projectCard:hover{
+  box-shadow: 0px 0px 16px 0px rgba(46, 45, 45, 0.245);
+  transition: 150ms;
+  
+}
+img{
+  width: 100%;
+  max-height: 520px;
+  object-fit: cover;
+  border-radius: 10px;
+}
